@@ -14,6 +14,8 @@ The two scripts of interest are `xlmr.py` and `mbert.py`. They should be run as:
 ```
 python3 xlmr.py -c [NAME_OF_THE_LANGUAGE]
 ```
+The folder also contains the script `test_in_finnish.py` which tests whether the neurons identified in the main experiment are predictive of valence and arousal in a held-out language belonging to a language family that did not concur to identify the top neurons (Finnish).
+
 The script makes heavy use of the package `NeuroX`. Make sure to [check it out](https://neurox.qcri.org/).
 
 ## Testing intersections

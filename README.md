@@ -1,4 +1,4 @@
-# affective-interlingua
+# Semantic units in multilingual models
 Code to reproduce the paper "The Emergence of Semantic Units in Massively Multilingual Models" (LREC-COLING 2024).
 
 ## Probing
@@ -14,3 +14,4 @@ The two scripts of interest are `xlmr.py` and `mbert.py`. They should be run as:
 ```
 python3 xlmr.py -c [NAME_OF_THE_LANGUAGE]
 ```
+The script makes heavy use of the package `NeuroX`. Make sure to [check it out](https://neurox.qcri.org/).

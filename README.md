@@ -15,3 +15,6 @@ The two scripts of interest are `xlmr.py` and `mbert.py`. They should be run as:
 python3 xlmr.py -c [NAME_OF_THE_LANGUAGE]
 ```
 The script makes heavy use of the package `NeuroX`. Make sure to [check it out](https://neurox.qcri.org/).
+
+## Testing intersections
+Once the probing results have been obtained, it is possible to compute the intersections of the top-100 units independently selected for each language. To do so the R script is in `intersections/super_exact_test.R`. Note that to successfully run the test the probing results must already have been run.

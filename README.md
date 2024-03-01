@@ -21,6 +21,7 @@ The script makes heavy use of the package `NeuroX`. Make sure to [check it out](
 ## Testing intersections
 Once the probing results have been obtained, it is possible to compute the intersections of the top-100 units independently selected for each language. To do so the R script is in `intersections/super_exact_test.R`. Note that to successfully run the test the probing results must already have been run. The results are quite dense and the raw output of the R test is quite difficult to read. So, the script `read_intersect.py` helps in navigating the output.
 
+
 > [!NOTE]
 > In our study, we make use of several pre-existing affective ratings datasets. Remember to cite the relevant articles if you use these norms.
 

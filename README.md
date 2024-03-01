@@ -19,4 +19,4 @@ The folder also contains the script `test_in_finnish.py` which tests whether the
 The script makes heavy use of the package `NeuroX`. Make sure to [check it out](https://neurox.qcri.org/).
 
 ## Testing intersections
-Once the probing results have been obtained, it is possible to compute the intersections of the top-100 units independently selected for each language. To do so the R script is in `intersections/super_exact_test.R`. Note that to successfully run the test the probing results must already have been run.
+Once the probing results have been obtained, it is possible to compute the intersections of the top-100 units independently selected for each language. To do so the R script is in `intersections/super_exact_test.R`. Note that to successfully run the test the probing results must already have been run. The results are quite dense and the raw output of the R test is quite difficult to read. So, the script `read_intersect.py` helps in navigating the output.
